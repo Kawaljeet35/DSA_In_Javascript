@@ -27,7 +27,7 @@ Algorithms:
 Sorting Algorithms: Implementation of various sorting algorithms such as bubble sort, insertion sort, selection sort, merge sort, quick sort, etc.
 Searching Algorithms: Implementation of linear search, binary search, etc.
 Dynamic Programming: Implementation of dynamic programming algorithms for solving problems like the Fibonacci sequence, knapsack problem, etc.
-Graph Algorithms: Implementation of algorithms for traversing and manipulating graphs, such as Dijkstra's algorithm, Kruskal's algorithm, etc.
+Graph Algorithms: Implementation of algorithms for traversing and manipulating graphs, such as Dijkstra's algorithm.
 
 Contributing:
 
