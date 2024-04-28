@@ -3,14 +3,14 @@ function fib(num){
     return fib(num-1) + fib(num-2);
 }
 
-// //Memoization Solution (Dynamic Programming)
-// function fib(n, memo = []){
-//     if(memo[n] !== undefined) return memo[n];
-//     if(n <= 2) return 1;
-//     var res =  fib(n-1, memo) + fib(n-2, memo);
-//     memo[n] = res;
-//     return res;
-// }
+//Memoization Solution (Dynamic Programming)
+function fib(n, memo = []){
+    if(memo[n] !== undefined) return memo[n];
+    if(n <= 2) return 1;
+    var res =  fib(n-1, memo) + fib(n-2, memo);
+    memo[n] = res;
+    return res;
+}
 
 //Tabulation Approach (Dynamic Programming)
 function fib_table(n){
